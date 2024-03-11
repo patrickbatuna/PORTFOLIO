@@ -1,0 +1,250 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+p,
+h1,
+h2,
+h3 {
+  color: #ededed;
+}
+
+p {
+  font-weight: 300;
+}
+
+h1 {
+  font-size: 64px;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 32px;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+body {
+  font-family: "montserrat", Helvetica, sans-serif;
+  background-color: #1b1b1b;
+  background-image: url(/assets/img/BlackWaveWallpaper.png);
+  background-size: cover;
+  background-position: top;
+  background-attachment: fixed;
+}
+
+header > a,
+header > p {
+  width: 200px;
+  text-align: center;
+}
+
+header > a {
+  text-decoration: none;
+}
+
+header {
+  display: flex;
+  width: fit-content;
+  margin-inline: auto;
+  height: 120px;
+  padding-block: 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 64px;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  flex-wrap: wrap;
+  padding: 16px;
+}
+
+.card-container-1 {
+  width: 50%;
+  aspect-ratio: 2/1;
+}
+
+.card-container-1,
+.card-container-2 {
+  padding: 16px;
+}
+
+.card-container-2,
+.card-container-3 {
+  width: 25%;
+  aspect-ratio: 1/1;
+}
+
+.card-container-3 {
+  display: flex;
+}
+
+.hero-card,
+.university-card,
+.greeting-card,
+.contacts-card {
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.hero-card {
+  background-color: rgba(33, 33, 33, 0.75);
+  aspect-ratio: 2/1;
+  justify-content: space-evenly;
+}
+
+.hero-card > img {
+  height: 100%;
+}
+
+.hero-card > h1 {
+  margin-block: auto;
+}
+
+.university-card {
+  background-image: url(/assets/img/UB-Background.png);
+  background-size: cover;
+  background-position: center;
+  flex-direction: column;
+  gap: 12px;
+  justify-content: center;
+  text-align: center;
+}
+
+.ub-logo {
+  width: 40%;
+  height: auto;
+  opacity: 0.95;
+}
+
+.mini-card-container-1,
+.mini-card-container-2 {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.mini-card {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.mini-card > img {
+  border-radius: 12px;
+  width: 100%;
+  aspect-ratio: 1/1;
+  cursor: pointer;
+}
+
+.greeting-card {
+  background-color: rgba(33, 33, 33, 0.75);
+  flex-direction: column;
+  justify-content: center;
+  padding: 32px;
+}
+
+.greeting-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  align-items: start;
+}
+
+.greeting-container > p {
+  text-align: start;
+}
+
+.wave {
+  font-size: 48px;
+}
+
+.hello {
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.description {
+  font-size: 20px;
+  height: 100%;
+}
+
+.contacts-card {
+  background-color: rgba(33, 33, 33, 0.75);
+}
+
+.contacts-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.contacts-row-1,
+.contacts-row-2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.hero-card > h2 {
+  font-size: 32px;
+  font-weight: 500;
+  text-align: end;
+}
+
+.project {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(33, 33, 33, 0.75);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 24px;
+  border-radius: 12px;
+}
+
+header + h1 {
+  padding-inline: 16px;
+}
+
+.project > p {
+  font-weight: 300;
+}
+
+.project > h3 {
+  font-weight: 500;
+}
+
+.project > img {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+}
+
+.tech-list {
+  width: 100%;
+  display: flex;
+  gap: 16px;
+  margin-top: auto;
+}
+
+.tech-list > img {
+  height: 32px;
+}
