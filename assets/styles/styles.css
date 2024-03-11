@@ -33,7 +33,7 @@ h3 {
 body {
   font-family: "montserrat", Helvetica, sans-serif;
   background-color: #1b1b1b;
-  background-image: url(assets/img/BlackWaveWallpaper.png);
+  background-image: url(../img/BlackWaveWallpaper.png);
   background-size: cover;
   background-position: top;
   background-attachment: fixed;
@@ -113,7 +113,7 @@ header {
 }
 
 .university-card {
-  background-image: url(assets/img/UB-Background.png);
+  background-image: url(../img/UB-Background.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
