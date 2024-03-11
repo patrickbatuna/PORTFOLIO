@@ -10,6 +10,10 @@ button {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+}
+
 p,
 h1,
 h2,
@@ -280,9 +284,9 @@ header + h1 {
 }
 
 @media screen and (max-width: 800px) {
-  body {
+  /* body {
     background-image: url(../img/BlackWaveWallpaperMobile.png);
-  }
+  } */
 
   h1 {
     font-size: 48px;
