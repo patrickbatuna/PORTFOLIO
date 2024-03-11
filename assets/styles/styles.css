@@ -2,6 +2,12 @@
   margin: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: "montserrat", Helvetica, sans-serif;
+}
+
+button {
+  border: none;
+  cursor: pointer;
 }
 
 p,
@@ -31,7 +37,6 @@ h3 {
 }
 
 body {
-  font-family: "montserrat", Helvetica, sans-serif;
   background-color: #1b1b1b;
   background-image: url(../img/BlackWaveWallpaper.png);
   background-size: cover;
@@ -39,24 +44,31 @@ body {
   background-attachment: fixed;
 }
 
-header > a > p {
-  width: fit-content;
-  margin-inline: auto;
-}
-
-header > a {
-  text-decoration: none;
-}
-
 header {
   display: flex;
-  width: fit-content;
+  width: 100%;
   margin-inline: auto;
   height: 120px;
   padding-block: 32px;
   justify-content: center;
   align-items: center;
   gap: 128px;
+}
+
+.nav-button {
+  width: 150px;
+  color: #ededed;
+  text-decoration: none;
+  background-color: rgba(33, 33, 33, 0.75);
+  padding: 16px;
+  border-radius: 8px;
+  transition: all, 0.2s;
+}
+
+.nav-button:hover {
+  background-color: #ededed;
+  color: #1b1b1b;
+  transition: all, 0.2s;
 }
 
 .content {
@@ -89,6 +101,18 @@ header {
   width: 25%;
   aspect-ratio: 1/1;
 }
+
+/* .project-container {
+  width: 25%;
+  padding: 16px;
+  aspect-ratio: 1/1;
+  transition: all, 0.2s;
+}
+
+.project-container:hover {
+  padding: 4px;
+  transform: all, 0.2s;
+} */
 
 .card-container-3 {
   display: flex;
@@ -211,7 +235,6 @@ header {
 }
 
 .hero-card > h2 {
-  font-size: 32px;
   font-weight: 500;
   text-align: end;
 }
@@ -254,4 +277,82 @@ header + h1 {
 
 .tech-list > img {
   height: 32px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background-image: url(../img/BlackWaveWallpaperMobile.png);
+  }
+
+  h1 {
+    font-size: 48px;
+  }
+  h2 {
+    font-size: 24px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  p {
+    font-size: 16px;
+  }
+
+  header {
+    gap: 5%;
+  }
+
+  .nav-button {
+    font-size: 16px;
+    width: 130px;
+  }
+
+  .content {
+    padding: 0px;
+  }
+  .card-container-1 {
+    width: 100%;
+    aspect-ratio: 1.5/1;
+    padding: 8px;
+  }
+
+  .card-container-2,
+  .card-container-3 {
+    width: 50%;
+    aspect-ratio: 1/1;
+    padding: 8px;
+  }
+
+  .mini-card {
+    padding: 8px;
+  }
+
+  .wave {
+    font-size: 32px;
+  }
+
+  .hello {
+    font-size: 24px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .contacts-row-1 img,
+  .contacts-row-2 img {
+    width: 24px;
+  }
+
+  .hero-card > h2 {
+    font-size: 20px;
+  }
+
+  .card-container-2.project-container {
+    width: 100%;
+    aspect-ratio: 1.3/1;
+  }
+
+  header + h1 {
+    padding-inline: 12px;
+  }
 }
