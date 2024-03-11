@@ -75,6 +75,13 @@ header {
 .card-container-1,
 .card-container-2 {
   padding: 16px;
+  transition: all, 0.2s;
+}
+.card-container-1:hover,
+.card-container-2:hover,
+.mini-card:hover {
+  padding: 4px;
+  transition: all, 0.2s;
 }
 
 .card-container-2,
@@ -140,6 +147,7 @@ header {
   display: flex;
   align-items: center;
   padding: 16px;
+  transition: all, 0.2s;
 }
 
 .mini-card > img {
