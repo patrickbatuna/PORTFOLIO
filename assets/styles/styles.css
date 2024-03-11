@@ -114,7 +114,7 @@ header {
 }
 
 .university-card {
-  background-image: url(/assets/img/UB-Background.png);
+  background-image: url(assets/img/UB-Background.png);
   background-size: cover;
   background-position: center;
   flex-direction: column;
