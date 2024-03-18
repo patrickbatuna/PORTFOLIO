@@ -164,8 +164,7 @@ header {
   opacity: 0.95;
 }
 
-.mini-card-container-1,
-.mini-card-container-2 {
+.mini-card-container {
   display: flex;
   flex-direction: column;
   height: 100%;
